@@ -87,24 +87,24 @@ function SetQA() {
 
 function Ans1_Checked() {
 	Ans = document.getElementById("button1").innerText;
-	decesion();
+	decision();
 }
 
 function Ans2_Checked() {
 	Ans = document.getElementById("button2").innerText;
-	decesion();
+	decision();
 }
 
 function Ans3_Checked() {
 	Ans = document.getElementById("button3").innerText;
-	decesion();
+	decision();
 }
 
 function Answer_Text() {
 	Ans = document.getElementById("textbox").value;
-	decesion();
+	decision();
 }
-function decesion() {
+function decision() {
 	if (Ans == Answer) {
 		document.getElementById("hantei").innerText = "正解";
 	} else {
