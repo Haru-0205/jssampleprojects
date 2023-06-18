@@ -2,5 +2,6 @@
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"files.autoSave": "onFocusChange",
-	"cSpell.words": ["midashi", "OMUCT"]
+	"cSpell.words": ["midashi", "OMUCT"],
+	"git.ignoreLimitWarning": true
 }
